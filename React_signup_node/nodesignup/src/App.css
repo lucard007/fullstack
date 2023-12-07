@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background-image: url(https://static.vecteezy.com/system/resources/previews/019/201/231/non_2x/cartoon-bush-bushes-free-png.png); */
+  /* background-repeat: no-repeat; */
+}
+input{
+  height: 40px;
+  width: 300px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 2px 2px 2px red;
+}
+.one{
+  margin-top: 20px;
+}
+.two{
+  margin-top: 10px;
+}
+h1{
+  color: red;
+  margin-top: 5px;
+}
+button{
+  height: 40px;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: black;
+  transition: all 0.2 ease-in;
+
+}
+button:hover{
+  box-shadow: 3px 3px 3px red;
+  color: chocolate;
+  transform: translateY(-4px);
+}
